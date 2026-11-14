@@ -1,0 +1,31 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.6.0.schema.json
+
+PackageIdentifier: KRSoftwares.SyncSound
+PackageVersion: 0.6.0
+PackageLocale: en-US
+Publisher: KR Softwares
+PublisherUrl: https://github.com/KasunRocz-Softwares
+PublisherSupportUrl: https://github.com/KasunRocz-Softwares/SoundSync/issues
+PackageName: SyncSound
+PackageUrl: https://kasunrocz-softwares.github.io/SoundSync/
+License: MIT
+LicenseUrl: https://github.com/KasunRocz-Softwares/SoundSync/blob/main/LICENSE
+ShortDescription: Play Windows audio on multiple speakers and Bluetooth headphones at once, in sync.
+Description: |-
+  SyncSound captures Windows audio and plays it on up to eight outputs at the same time: wired, USB, HDMI and Bluetooth.
+  A one-click microphone calibration measures when each speaker reaches your seat and aligns them, so Bluetooth lag
+  no longer causes an echo. It also offers per-speaker EQ and room correction, bass routing and virtual bass for small
+  speakers, a room map with 7.1 and 8D spatial sound, per-app routing, and FIR convolution.
+Moniker: syncsound
+Tags:
+- audio
+- bluetooth
+- equalizer
+- multi-speaker
+- room-correction
+- spatial-audio
+- speakers
+- sync
+ReleaseNotesUrl: https://github.com/KasunRocz-Softwares/SoundSync/releases/tag/v0.6.0
+ManifestType: defaultLocale
+ManifestVersion: 1.6.0
