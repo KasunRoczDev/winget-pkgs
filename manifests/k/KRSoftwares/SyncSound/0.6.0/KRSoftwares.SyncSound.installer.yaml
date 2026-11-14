@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: KRSoftwares.SyncSound
+PackageVersion: 0.6.0
+InstallerType: nullsoft
+Scope: user
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: install
+ReleaseDate: 2026-11-15
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/KasunRocz-Softwares/SoundSync/releases/download/v0.6.0/SyncSound_0.6.0_x64-setup.exe
+  InstallerSha256: A7E461B33810BDE4B64F0903EE33D7D245BC7B459958892DF845CC1C54891CCB
+ManifestType: installer
+ManifestVersion: 1.6.0
